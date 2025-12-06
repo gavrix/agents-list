@@ -2,6 +2,12 @@
 
 A terminal multiplexer for managing AI agent sessions. Run multiple interactive CLI sessions (like Claude Code, Codex, etc.) and switch between them from a central manager.
 
+
+
+https://github.com/user-attachments/assets/14269c8f-4244-4cac-b1b0-1bc07611d75d
+
+
+
 ## Installation
 
 ```bash
