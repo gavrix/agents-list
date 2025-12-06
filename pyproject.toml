@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pty-manager"
+version = "0.1.0"
+description = "A PTY manager for AI agent sessions"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+pty-manager = "pty_manager.__main__:main"
+ptym = "pty_manager.__main__:main"
+
+[project.optional-dependencies]
+dev = ["pytest", "mypy"]
